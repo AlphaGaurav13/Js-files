@@ -37,8 +37,30 @@ let hero1 = null;
 // console.log(typeof isTrue);  // boolean
 // console.log(typeof hero1);  //  object
 
+// *************************************************** Stack && Heap ***************************************
 
 
+let myName = "GauravHain";
+let anotherName = myName; 
+anotherName = "heroChaudhary";
 
+
+// console.log(myName);   // this is stored in stack
+// console.log(anotherName);
+
+
+let userOne = {
+    email : "User123@google.com",
+    upi : "user@ybl",
+}
+
+let userTwo = userOne;
+
+userTwo.email = "Gauravkkr345@gmail.com";
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+// inside the non primitive type  we always get the refrence value.
 
 
