@@ -34,6 +34,40 @@ let number = 13
 
 let stringNumber = String(number);
 
-console.log(stringNumber);
-console.log(typeof(stringNumber));
+// console.log(stringNumber);
+// console.log(typeof(stringNumber));
 
+// **************************   Operations  **********************
+
+let value = 3
+let negValue = -value 
+
+// console.log(negValue);
+
+
+let str1 = "hlo"
+
+let str2 = " Gaurav"
+
+let str3 = str1 + str2   // this is we call concatenation
+// console.log(str3); 
+
+// console.log("1" + 2); // 12
+// console.log(1 + "2");  // 12
+// console.log("1" + 2 + 2); // 122
+// console.log(1 + 2 + "2"); // 32
+// console.log((3+4) * 5 % 3);
+
+
+// console.log(+true) // 1
+// console.log(+"") // 0
+
+let num1, num2, num3;
+
+num1 = num2 = num3 = 2 + 2;
+
+
+let gameCounter = 100;
+++gameCounter;
+
+console.log(gameCounter);
