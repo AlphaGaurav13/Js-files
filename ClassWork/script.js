@@ -37,12 +37,27 @@
 // console.log(`Max Value inside the array  is : `,Math.max(12,3,4,5,6));
 
 
-function greet(name) {
+// function greet(name) {
 
-    const text = document.querySelector('.ga');
-    text.innerHTML = `hello ${name} Welcome to Our Website`;
-    text.
+//     const text = document.querySelector('.ga');
+//     text.innerHTML = `Hello ${name} Welcome to Our Website`;
+//     text.style.color = "pink";
     
-}
+// }
 
-greet("Rishab Aur Rohit :)");
+
+// greet("Rangnarok");
+
+
+const greet1 = (name) => `Hey , ${name}`;
+
+console.log(greet1("Radhika"))
+
+
+// IIFE -> Immediately Invoked function Expression.
+
+(function (name)) {
+    console.log("Hello" + name);
+}("Rashmixrohit");
+
+
